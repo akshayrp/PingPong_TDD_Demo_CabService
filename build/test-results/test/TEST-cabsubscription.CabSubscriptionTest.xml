@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cabsubscription.CabSubscriptionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-12-16T13:41:21" hostname="admin1-desktop" time="0.023">
+  <properties/>
+  <testcase name="givenMinimumDistanceAndTimeForPremiumRide_ShouldReturnMinimumAmount" classname="cabsubscription.CabSubscriptionTest" time="0.016"/>
+  <testcase name="givenMultipleRide_ShouldReturnInvoice" classname="cabsubscription.CabSubscriptionTest" time="0.006"/>
+  <testcase name="givenUserIdRidesAndRideType_ShouldCalculateFareBasedOnRideType" classname="cabsubscription.CabSubscriptionTest" time="0.001"/>
+  <testcase name="givenDistanceAndTime_ShouldReturnTotalFair" classname="cabsubscription.CabSubscriptionTest" time="0.0"/>
+  <testcase name="givenMinimumDistanceAndTime_ShouldReturnMinimumAmount" classname="cabsubscription.CabSubscriptionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
