@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39d911dd-281d-4d6e-bd7e-9bb0cd854f44" name="Default Changelist" comment="" />
+    <list default="true" id="39d911dd-281d-4d6e-bd7e-9bb0cd854f44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cabsubscription/InvoiceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/cabsubscription/InvoiceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cabsubscription/Ride.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/cabsubscription/Ride.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cabsubscription/RideRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/cabsubscription/RideRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/cabsubscription/CabSubscriptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/cabsubscription/CabSubscriptionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/cabsubscription.CabSubscriptionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/cabsubscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/cabsubscription.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-cabsubscription.CabSubscriptionTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cabsubscription/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cabsubscription/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cabsubscription/CabSubscriptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cabsubscription/CabSubscriptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cabsubscription/RideRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cabsubscription/RideRepositoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="160" />
+    <option name="myElementSize" value="158" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -28,12 +53,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1V3qxFwJtC0b2hitcZg9HrqLiaX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -47,7 +76,7 @@
       <recent name="cabsubscription" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CabSubscriptionTest">
+  <component name="RunManager" selected="Gradle.RideRepositoryTest">
     <configuration name="CabSubscriptionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -68,12 +97,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CabSubscriptionTest.givenDistanceAndTime_ShouldReturnTotalFair" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CabSubscriptionTest.givenRideDetailsAndRideTypeAsNull_ShouldReturnNullFare" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;cabsubscription.CabSubscriptionTest.givenDistanceAndTime_ShouldReturnTotalFair&quot;" />
+        <option name="scriptParameters" value="--tests &quot;cabsubscription.CabSubscriptionTest.givenRideDetailsAndRideTypeAsNull_ShouldReturnNullFare&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -88,12 +117,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CabSubscriptionTest.givenMinimumDistanceAndTimeForPremiumRide_ShouldReturnMinimumAmount" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CabSubscriptionTest.givenUserIdRideTypeAndMultipleRides_ShouldCalculateFare" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;cabsubscription.CabSubscriptionTest.givenMinimumDistanceAndTimeForPremiumRide_ShouldReturnMinimumAmount&quot;" />
+        <option name="scriptParameters" value="--tests &quot;cabsubscription.CabSubscriptionTest.givenUserIdRideTypeAndMultipleRides_ShouldCalculateFare&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -108,12 +137,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CabSubscriptionTest.givenMultipleRide_ShouldReturnInvoice" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RideRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;cabsubscription.CabSubscriptionTest.givenMultipleRide_ShouldReturnInvoice&quot;" />
+        <option name="scriptParameters" value="--tests &quot;cabsubscription.RideRepositoryTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -128,12 +157,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CabSubscriptionTest.givenUserIdRidesAndRideType_ShouldCalculateFareBasedOnRideType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RideRepositoryTest.givenMultipleUserIdAndRides_ShouldReturnExactCountOfDefinedUserId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;cabsubscription.CabSubscriptionTest.givenUserIdRidesAndRideType_ShouldCalculateFareBasedOnRideType&quot;" />
+        <option name="scriptParameters" value="--tests &quot;cabsubscription.RideRepositoryTest.givenMultipleUserIdAndRides_ShouldReturnExactCountOfDefinedUserId&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -150,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RideRepositoryTest" />
         <item itemvalue="Gradle.CabSubscriptionTest" />
-        <item itemvalue="Gradle.CabSubscriptionTest.givenMinimumDistanceAndTimeForPremiumRide_ShouldReturnMinimumAmount" />
-        <item itemvalue="Gradle.CabSubscriptionTest.givenUserIdRidesAndRideType_ShouldCalculateFareBasedOnRideType" />
-        <item itemvalue="Gradle.CabSubscriptionTest.givenDistanceAndTime_ShouldReturnTotalFair" />
-        <item itemvalue="Gradle.CabSubscriptionTest.givenMultipleRide_ShouldReturnInvoice" />
+        <item itemvalue="Gradle.CabSubscriptionTest.givenRideDetailsAndRideTypeAsNull_ShouldReturnNullFare" />
+        <item itemvalue="Gradle.CabSubscriptionTest.givenUserIdRideTypeAndMultipleRides_ShouldCalculateFare" />
+        <item itemvalue="Gradle.RideRepositoryTest.givenMultipleUserIdAndRides_ShouldReturnExactCountOfDefinedUserId" />
       </list>
     </recent_temporary>
   </component>
@@ -184,56 +213,61 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1576499333223">
+    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1576504441703">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1576499333223" />
-    <state x="435" y="27" width="552" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576503432046">
+    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1576504441703" />
+    <state x="435" y="27" width="552" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576560656166">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="435" y="27" width="552" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741@67.27.1299.741" timestamp="1576503432046" />
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1576503680380">
+    <state x="435" y="27" width="552" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741@67.27.1299.741" timestamp="1576560656166" />
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1576560217318">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1576503680380" />
-    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1576503680380">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1576560217318" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1576560217318">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1576503680380" />
-    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1576503680379">
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1576560217318" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1576560217318">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1576503680379" />
-    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1576503680380">
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1576560217318" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1576560217318">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1576503680380" />
-    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1576502554198">
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1576560217318" />
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1576559379094">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1576502554198" />
-    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1576502554198">
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1576559379094" />
+    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1576559379094">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1576502554198" />
-    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1576502554198">
+    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1576559379094" />
+    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1576559379094">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1576502554198" />
-    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1576502554198">
+    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1576559379094" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1576559379094">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1576502554198" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1576559379094" />
     <state x="449" y="165" width="524" height="463" key="extract.method.dialog" timestamp="1576496330111">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="449" y="165" width="524" height="463" key="extract.method.dialog/67.27.1299.741@67.27.1299.741" timestamp="1576496330111" />
-    <state x="412" y="27" width="598" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1576496187307">
+    <state x="412" y="27" width="598" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1576555647407">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="412" y="27" width="598" height="741" key="refactoring.ChangeSignatureDialog/67.27.1299.741@67.27.1299.741" timestamp="1576496187307" />
+    <state x="412" y="27" width="598" height="741" key="refactoring.ChangeSignatureDialog/67.27.1299.741@67.27.1299.741" timestamp="1576555647407" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1576555326806">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1576555326806" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CabSubscription$CabSubscriptionTest.ic" NAME="CabSubscriptionTest Coverage Results" MODIFIED="1576503680369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CabSubscription$CabSubscriptionTest.ic" NAME="CabSubscriptionTest Coverage Results" MODIFIED="1576559392345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CabSubscription$RideRepositoryTest.ic" NAME="RideRepositoryTest Coverage Results" MODIFIED="1576559397971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

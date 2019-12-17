@@ -74,6 +74,7 @@ public class RideRepositoryTest
       };
 
       rideRepository.addRide("a@b", firstSetOfRides);
+
       rideRepository.addRide("b@a", secondSetOfRide);
       List<Ride> allRidesFromRepository = rideRepository.getRides("a@b");
       int actualValue = allRidesFromRepository.size();

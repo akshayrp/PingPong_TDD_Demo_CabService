@@ -37,7 +37,7 @@ public class CabSubscriptionTest
             new Ride(0.1, 1, RideType.NORMAL)
       };
       List rides = new ArrayList(Arrays.asList(ride));
-      InvoiceSummary summary = invoiceService.addRide(rides);
+      InvoiceSummary summary = invoiceService.calculateFareForMultipleRide(rides);
       InvoiceSummary expectedSummary = new InvoiceSummary(2, 30);
       Assert.assertEquals(expectedSummary, summary);
    }
@@ -65,6 +65,26 @@ public class CabSubscriptionTest
       int time = 1;
       double value = invoiceService.calculateFare(distance, time, RideType.PREMIUM);
       Assert.assertEquals(10, value, 0.0);
+   }
+
+   @Test
+   public void givenUserIdRideTypeAndMultipleRides_ShouldCalculateFare()
+   {
+      InvoiceService invoiceService = new InvoiceService();
+      String userId = "a@b";
+      Ride[] firstSetOfRide = {new Ride(2.0, 5, RideType.PREMIUM),
+            new Ride(0.1, 1, RideType.NORMAL),
+            new Ride(0.1, 1, RideType.NORMAL)
+      };
+      Ride[] secondSetOfRide = {new Ride(2.0, 5, RideType.PREMIUM),
+            new Ride(0.1, 1, RideType.NORMAL),
+            new Ride(0.1, 1, RideType.NORMAL)
+      };
+      invoiceService.addRide(userId, secondSetOfRide);
+      invoiceService.addRide(userId, firstSetOfRide);
+      InvoiceSummary summary = invoiceService.getInvoiceSummary(userId);
+      InvoiceSummary expectedSummary = new InvoiceSummary(6, 120);
+      Assert.assertEquals(expectedSummary, summary);
    }
 }
 

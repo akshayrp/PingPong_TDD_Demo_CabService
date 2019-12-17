@@ -27,24 +27,23 @@ public class InvoiceService
             return MIN_TRAVEL_TIME_PREMIUM_RIDE;
          return fare;
       }
-      else if (rideType.equals(RideType.NORMAL))
+      else
       {
          Double fare = MIN_DISTANCE_FARE * distance + time * COST_PER_TIME;
          if (fare < 5)
             return MIN_TRAVEL_TIME;
          return fare;
       }
-      return null;
    }
 
-   public InvoiceSummary addRide(List<Ride> ride)
+   public InvoiceSummary calculateFareForMultipleRide(List<Ride> listOfAllRides)
    {
-      double fare = 0;
-      for (Ride rides : ride)
+      double totalFare = 0;
+      for (Ride rides : listOfAllRides)
       {
-         fare += this.calculateFare(rides.distance, rides.time, rides.ridetype);
+         totalFare += this.calculateFare(rides.distance, rides.time, rides.ridetype);
       }
-      return new InvoiceSummary(ride.size(), fare);
+      return new InvoiceSummary(listOfAllRides.size(), totalFare);
    }
 
    public void addRide(String userId, Ride[] ride)
@@ -54,6 +53,6 @@ public class InvoiceService
 
    public InvoiceSummary getInvoiceSummary(String userId)
    {
-      return this.addRide(rideRepository.getRides(userId));
+      return this.calculateFareForMultipleRide(rideRepository.getRides(userId));
    }
 }

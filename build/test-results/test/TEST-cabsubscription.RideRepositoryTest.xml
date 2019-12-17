@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cabsubscription.RideRepositoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-12-17T05:37:39" hostname="admin1-desktop" time="0.003">
+  <properties/>
+  <testcase name="givenUserIdAndMultipleRides_ShouldReturnExactCount" classname="cabsubscription.RideRepositoryTest" time="0.001"/>
+  <testcase name="givenUserIdAndNullRides_ShouldReturnCountZero" classname="cabsubscription.RideRepositoryTest" time="0.0"/>
+  <testcase name="givenMultipleUserIdAndRides_ShouldReturnExactCountOfDefinedUserId" classname="cabsubscription.RideRepositoryTest" time="0.0"/>
+  <testcase name="givenUserIdAndRides_ShouldAddDataToRepositoryAndGivesCount" classname="cabsubscription.RideRepositoryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
