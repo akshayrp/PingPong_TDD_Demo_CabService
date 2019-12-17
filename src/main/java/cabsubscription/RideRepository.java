@@ -1,12 +1,10 @@
 package cabsubscription;
 
-import cabsubscription.Ride;
-
 import java.util.*;
 
 public class RideRepository
 {
-   Map<String, ArrayList<Ride>> userRides = null;
+   Map<String, List<Ride>> userRides = null;
 
    public RideRepository()
    {
@@ -15,11 +13,17 @@ public class RideRepository
 
    public void addRide(String userId, Ride[] ride)
    {
-      this.userRides.put(userId, new ArrayList<>(Arrays.asList(ride)));
+      List<Ride> rideList = new ArrayList<>(Arrays.asList(ride));
+      List<Ride> ridesFromRepoForDefinedUserId = this.userRides.get(userId);
+      if (ridesFromRepoForDefinedUserId != null)
+      {
+         rideList.addAll(ridesFromRepoForDefinedUserId);
+      }
+      this.userRides.put(userId, rideList);
    }
 
-   public Ride[] getRides(String userId)
+   public List<Ride> getRides(String userId)
    {
-      return this.userRides.get(userId).toArray(new Ride[0]);
+      return this.userRides.get(userId);
    }
 }
